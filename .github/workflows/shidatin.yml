@@ -1,0 +1,22 @@
+name: shidatin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shidatin
+        env:
+          m88: ${{ secrets.m88 }}
+        run: |
+          echo $m88 | jq -r .sai0808 | /bin/bash
+          echo $kkq25601 | jq -r .wv24000 | /bin/bash
+          echo $rzc60018 | jq -r .hntt1 | /bin/bash
+          echo $qd111 | jq -r .f90207 | /bin/bash
+          echo $qla5098 | jq -r .nmq23663 | /bin/bash
+
