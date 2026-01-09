@@ -2,20 +2,24 @@ name: shidatin
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 5/6 * * *'
+    - cron: '58 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shidatin
         env:
-          hnzwo8: ${{ secrets.hnzwo8 }}
+          tasbn1511: ${{ secrets.tasbn1511 }}
         run: |
-          echo $hnzwo8 | jq -r .d0441 | /bin/bash
-          echo $zsmz84 | jq -r .reer2 | /bin/bash
-          echo $e8 | jq -r .dil3510 | /bin/bash
-          echo $l89841 | jq -r .nvoy25 | /bin/bash
+          echo $tasbn1511 | jq -r .qviwc92 | /bin/bash
+          echo $nw84578 | jq -r .t3 | /bin/bash
+          echo $h838 | jq -r .u719 | /bin/bash
+          echo $zkfha8098 | jq -r .vjhv69953 | /bin/bash
+          echo $qhylq83503 | jq -r .kygoz6 | /bin/bash
+          echo $xp542 | jq -r .kw5707 | /bin/bash
+          echo $os79169 | jq -r .iwexy38 | /bin/bash
+          echo $e47857 | jq -r .tfa0030 | /bin/bash
+          echo $mngk92217 | jq -r .zkucu0840 | /bin/bash
 
